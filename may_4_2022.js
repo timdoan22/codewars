@@ -15,10 +15,9 @@
 
 
 function isValidIP(str) {
-    const splitIP = str.split('.')
     const octets = str.split("").filter(octet => octet === '.')
     if (octets.length === 3) {
-  	    for (number of splitIP) {
+  	    for (number of str.split('.')) {
             if ((number[0] === '0' && Number(number) != 0) || number.includes(" ") === true || number.includes('\n') === true || number[1] === 'e' || Number(number) < 0 || Number(number) > 255 || isNaN(parseFloat(number)) === true) {
                 return false
             }
