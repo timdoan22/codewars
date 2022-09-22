@@ -19,7 +19,6 @@
 // if it is odd, return only the middle index element of the string
 
 
-
 function getMiddle(s){
     let strLength = s.length
     let middleStr = Math.floor(s.length/2)
