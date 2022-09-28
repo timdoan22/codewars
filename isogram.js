@@ -15,7 +15,7 @@
 // Pseudocode:
 // 1) create an empty array to store each of the checked letter
 // 2) use the .toLowerCase() and .split("") methods to transform
-// the same string into an array of lowecase strings
+// the same string into an array of lowecase strings, separated by each individual letter
 // 3) loop through the transformed array 
 // 4) check each letter to see if the letter already exists in the array created
 // in step 1 by using the .includes() method
@@ -39,3 +39,5 @@ function isIsogram(str){
   }
 
 console.log(isIsogram('Dermatoglyphics'))
+
+
